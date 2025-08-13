@@ -1,0 +1,27 @@
+.background-image {
+  background-image: url(../assets/4947870.jpg);
+  /* background-size:cover; */
+}
+
+.background-image-footer {
+  background-image: url(../assets/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
